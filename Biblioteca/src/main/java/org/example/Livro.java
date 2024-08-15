@@ -16,7 +16,9 @@ public class Livro {
         this.disponvel = true;
     }
 
-
+    public String getTitulo() {
+        return this.titulo;
+    }
 
 
 }
