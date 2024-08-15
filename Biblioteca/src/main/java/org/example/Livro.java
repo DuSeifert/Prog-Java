@@ -20,6 +20,18 @@ public class Livro {
         return this.titulo;
     }
 
+    public String getAutor(){
+        return this.autor;
+    }
+
+    public String getDisponivel(){
+        if(this.disponvel){
+            return "Disponível";
+        }
+        else {
+            return "Não disponível";
+        }
+    }
 
 
 }
