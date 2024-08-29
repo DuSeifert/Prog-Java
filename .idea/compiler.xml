@@ -10,6 +10,7 @@
         <module name="Biblioteca" />
         <module name="Calculadora" />
         <module name="CaixaEletronico" />
+        <module name="Atividade_1" />
         <module name="Bro_Code" />
       </profile>
     </annotationProcessing>

@@ -2,9 +2,9 @@ package org.example;
 
 public class ContaBancaria {
 
-    String titular;
-    int numConta;
-    double saldo;
+    private String titular;
+    private int numConta;
+    private double saldo;
 
     public ContaBancaria(String titular, int numConta, double saldo) {
         this.titular = titular;
@@ -12,25 +12,31 @@ public class ContaBancaria {
         this.saldo = saldo;
     }
 
-    void getTitular(){
-        System.out.printf("Titular da conta: %s", this.titular);
+    public String getTitular(){
+        return titular;
     }
 
-    void getNumConta(){
-        System.out.printf("Numero de conta: %d", this.numConta);
+    public int getNumConta(){
+        return numConta;
     }
 
-    void getSaldo(){
-        System.out.printf("Saldo da conta: R$%.2f", this.saldo);
+    public double getSaldo(){
+        return saldo;
     }
 
-    void depositar(double valor){
-        this.saldo += valor;
+    public void depositar(double valor){
+        if(valor > 0){
+            saldo += valor;
+            System.out.printf("Deposito de R$%.2f realizado\n", valor);
+        }
+        else{
+            System.out.println("Valor de depósito inválido");
+        }
     }
 
     boolean sacar(double valor){
-        if(this.saldo > valor){
-            this.saldo -= valor;
+        if(saldo > valor){
+            saldo -= valor;
             return true;
         }
         else {
@@ -39,6 +45,6 @@ public class ContaBancaria {
     }
 
     void detalhes(){
-        System.out.printf("        Titular: %s\nNumero de conta: %d\n          Saldo: R$%.2f", this.titular, this.numConta, this.saldo);
+        System.out.printf("        Titular: %s\nNumero de conta: %d\n          Saldo: R$%.2f", titular, numConta, saldo);
     }
 }

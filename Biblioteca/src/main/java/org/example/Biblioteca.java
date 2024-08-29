@@ -6,12 +6,8 @@ public class Biblioteca {
         Livro livro1 = new Livro("Dom Casmurro", "Machado de Assis", "1998");
         Livro livro2 = new Livro("Java for Dummies", "Dudu100hz", "2024");
 
-        //wefguiwgfuv
-
-
-
-
-
+        livro2.emprestar();
+        livro1.devolver();
 
     }
 }
