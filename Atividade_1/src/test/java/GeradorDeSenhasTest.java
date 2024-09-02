@@ -6,7 +6,6 @@ public class GeradorDeSenhasTest {
 
     GeradorDeSenhas gerador = new GeradorDeSenhas();
 
-
     @Test
     public void testGerarSenhaComApenasLetrasMinusculas() {
 

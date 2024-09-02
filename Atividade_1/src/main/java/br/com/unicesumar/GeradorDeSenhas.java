@@ -43,22 +43,22 @@ public class GeradorDeSenhas {
             switch (n % 4) {
                 case 0:
                     if (minusc) {
-                        carac = gerarChar(n);
+                        carac = gerarChar(0, rand.nextInt(33));
                     }
                     break;
                 case 1:
                     if (maiusc) {
-                        carac = gerarChar(n);
+                        carac = gerarChar(1, rand.nextInt(33));
                     }
                     break;
                 case 2:
                     if (numeros) {
-                        carac = gerarChar(n);
+                        carac = gerarChar(2, rand.nextInt(33));
                     }
                     break;
                 case 3:
                     if (especial) {
-                        carac = gerarChar(n);
+                        carac = gerarChar(3, rand.nextInt(33));
                     }
                     break;
             }
@@ -69,9 +69,9 @@ public class GeradorDeSenhas {
         return senha;
     }
 
-    private String gerarChar(int n){
+    private String gerarChar(int caso, int n){
         int v;
-        return switch (n % 4) {
+        return switch (caso) {
             case 0 -> {
                 v = n % min.length;
                 yield min[v];
