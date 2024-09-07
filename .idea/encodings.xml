@@ -3,6 +3,12 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Atividade_1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Atividade_1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Atividade_2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Atividade_2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Atividade_2_GestaoFuncionarios/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Atividade_2_GestaoFuncionarios/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Atividade_2_GestorRPG/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Atividade_2_GestorRPG/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Aula2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Aula2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Aula_choma/src/main/java" charset="UTF-8" />
@@ -15,5 +21,7 @@
     <file url="file://$PROJECT_DIR$/CaixaEletronico/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Calculadora/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Calculadora/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semana_05_Heranca/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/semana_05_Heranca/src/main/resources" charset="UTF-8" />
   </component>
 </project>

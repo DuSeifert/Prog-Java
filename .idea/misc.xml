@@ -11,10 +11,15 @@
         <option value="$PROJECT_DIR$/CaixaEletronico/pom.xml" />
         <option value="$PROJECT_DIR$/Biblioteca/pom.xml" />
         <option value="$PROJECT_DIR$/Atividade_1/pom.xml" />
+        <option value="$PROJECT_DIR$/semana_05_Heranca/pom.xml" />
+        <option value="$PROJECT_DIR$/Atividade_2/pom.xml" />
+        <option value="$PROJECT_DIR$/Atividade_2_GestaoFuncionarios/pom.xml" />
+        <option value="$PROJECT_DIR$/Atividade_2_GestorRPG/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Atividade_2/pom.xml" />
         <option value="$PROJECT_DIR$/Aula2/pom.xml" />
       </set>
     </option>

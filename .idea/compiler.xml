@@ -7,14 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Aula_choma" />
+        <module name="Atividade_2_GestorRPG" />
         <module name="Biblioteca" />
         <module name="Calculadora" />
         <module name="CaixaEletronico" />
         <module name="Atividade_1" />
+        <module name="Atividade_2_GestaoFuncionarios" />
         <module name="Bro_Code" />
+        <module name="semana_05_Heranca" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Atividade_2" target="22" />
       <module name="Aula2" target="22" />
     </bytecodeTargetLevel>
   </component>
