@@ -18,13 +18,13 @@ public class FuncionarioTempoIntegral extends Funcionario{
 
     @Override
     public float calcularSalario(){
-        return (salarioBase + (salarioBase * bonus/100));
+        return salarioBase + (salarioBase * bonus/100);
     }
 
     public void exibirInformacoes() {
         System.out.println("Nome: " + getNome());
         System.out.println("CPF: " + getCpf());
-        System.out.println("Salario Base: " + getSalarioBase());
-        System.out.print("Bonus: %.2f" + getBonus());
+        System.out.printf("Bonus: %.1f%%\n", getBonus());
+        System.out.printf("Salário: R$%.2f\n", calcularSalario());
     }
 }

@@ -39,4 +39,10 @@ public class Funcionario {
         return salarioBase;
     }
 
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + getNome());
+        System.out.println("CPF: " + getCpf());
+        System.out.printf("Salário: R$%.2f\n", calcularSalario());
+    }
+
 }

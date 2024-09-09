@@ -34,9 +34,9 @@ public class Estagiario extends Funcionario{
     public void exibirInformacoes() {
         System.out.println("Nome: " + getNome());
         System.out.println("CPF: " + getCpf());
-        //System.out.println("Salario Base: " + getSalarioBase());
-        System.out.println("Bolsa auxílio: " + getBolsaAuxilio());
         System.out.println("Instituição de Ensino: " + getInstituicaoEnsino());
+        System.out.printf("Bolsa auxílio/Salário: R$%.2f\n",  calcularSalario());
+
     }
 
 }

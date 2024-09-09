@@ -35,8 +35,8 @@ public class FuncionarioMeioPeriodo extends Funcionario {
     public void exibirInformacoes() {
         System.out.println("Nome: " + getNome());
         System.out.println("CPF: " + getCpf());
-        //System.out.println("Salario Base: " + getSalarioBase());
-        System.out.println("Horas trabalhadas: " + getHorasTrabalhadas());
-        System.out.println("Valor da hora: " + getValorHora());
+        System.out.printf("Horas trabalhadas: %.2f\n", getHorasTrabalhadas());
+        System.out.printf("Valor da hora: R$%.2f\n", getValorHora());
+        System.out.printf("Salário: R$%.2f\n", calcularSalario());
     }
 }
