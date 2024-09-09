@@ -24,7 +24,7 @@ public class Main {
                       3 -- Adicionar Funcionário de tempo integral
                       4 -- Adicionar Estagiário
                       5 -- Imprimir informações
-                      
+                    
                       0 -- Sair
                     """);
 
