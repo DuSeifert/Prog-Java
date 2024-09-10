@@ -1,4 +1,7 @@
 
+import br.com.unicesumar.Guerreiro;
+import br.com.unicesumar.Mago;
+import br.com.unicesumar.Personagem;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,10 +13,8 @@ class PersonagemTest {
         Personagem defensor = new Mago("Gandalf", 10, 80, 15, 5, 50, 25);
         atacante.atacar(defensor);
         assertTrue(defensor.estaVivo());
-        assertEquals(65, defensor.hp);
+        assertEquals(60, defensor.hp);
     }
-
-    //todo:drink from ass
 
     @Test
     void testReceberDano() {
