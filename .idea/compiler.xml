@@ -15,11 +15,11 @@
         <module name="Atividade_2_GestaoFuncionarios" />
         <module name="Bro_Code" />
         <module name="semana_05_Heranca" />
+        <module name="Atividade_3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Atividade_2" target="22" />
-      <module name="Aula2" target="22" />
+      <module name="Prog Java" target="22" />
     </bytecodeTargetLevel>
   </component>
 </project>
